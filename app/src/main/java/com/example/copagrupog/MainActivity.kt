@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     fun navigateTeamList(v: View) {
         val intent = Intent(this, PlayerListActivity::class.java)
+
         startActivity(intent)
     }
 }

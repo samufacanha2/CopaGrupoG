@@ -8,8 +8,8 @@ class CountryList {
 
         var brazilPlayers = ArrayList<Player>()
 
-        brazilPlayers.add(Player("Alisson", ArrayList<String>(),ArrayList<String>() ,ArrayList<String>() ,0, "", "" ))
-        countryList.add(Country("Brasil", "brasil",  brazilPlayers))
+        brazilPlayers.add(Player("Alisson", ArrayList<String>(),ArrayList<String>() ,ArrayList<String>() ,30, "goleiro", R.drawable.brasil ))
+        countryList.add(Country("Brasil",  brazilPlayers))
 
         this.countryList = countryList
     }
